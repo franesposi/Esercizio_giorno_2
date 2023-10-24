@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+<body>
+    <h1>Come creare un template per i post<br>
+        <p><cite>di Mario Rossi - pubblicato il 25-10-2020</cite></p>
+    </h1>
+    <div id="contenuto principale">
+        <header>
+            <h3>Per iniziare</h3>
+            <p>La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a tutte le pagine.<br></p>
+        </header>
+        <main>
+            <article>Le varie aree saranno quindi suddivise in:
+            <ul>
+                <li>Contenuti di intestazione del tag <b>&lt;header&gt;</b></li>
+                <li>Contenuti centrali variabili del tag <b>&lt;main&gt;</b> (corpo principale)</li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag <b>&lt;footer&gt;</b></li>
+            </ul>
+            </article>
+            <article>
+                <h3>Formattazione del codice</h3>
+                <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.<br>
+                Perciò i passi da seguire sono:
+                </p>
+                <ol>
+                    <li>Progettare il <mark>markup</mark> assegnando ad ogni specifico testo il tag appropriato</li>
+                    <li>Scrivere l'<abbr title="hyper_text_markup_language">HTML</abbr> dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                    <li>Applicare gli stili CSS</li>
+                </ol>
+            </article>
+            <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè <cite><b>totale</b></cite>.</p>
+            <table style="border-collapse: collapse;">
+                <caption style="border: 1px solid #ddd" style="padding: 8px;"><b>Diffusione dei CSS</b></caption>
+                
+                <tr>
+                    <th style="border: 1px solid #ddd" style="padding: 8px;">Anno</th>
+                    <th style="border: 1px solid #ddd" style="padding: 8px;">% di utilizzo</th>
+                    <th style="border: 1px solid #ddd" style="padding: 8px;">Supporto browser</th>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">2000</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">20%</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">17%</td>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">2002</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">35%</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">22%</td>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">2004</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">45%</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">42%</td>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">2008</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">80%</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">51%</td>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">2012</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">100%</td>
+                    <td style="border: 1px solid #ddd" style="padding: 8px;">76%</td>
+                </tr>
+            </table>
+            <section>
+                Un test di validazione potrà essere fatto tramite il <a href="https://toolset.mrw.it/css/css3-box-shadow.html" target="_blank">tool online</a> dedicato allo scopo.<br>
+                Una volta ottimizzato il tutto, avremmo raggiunto il nostro obiettivo ed essere stati dei veri e propri developers come loro:<br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9yBTokZtapE?si=FO-XkLzCMkKN4lOJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+        </main>
+    </div>
+    <hr>
+    <div>
+        <h4>Articoli correlati</h4>
+        <ul>
+           <li type="square"><a href="#">Validare il codice HTML</a><br>
+            <cite>Categoria: develop</cite><br>
+            <cite>Data: 18-09-2020</cite></li>
+           <li type="square"><a href="#">Correggere la sintassi</a><br>
+            <cite>Categoria: develop</cite><br>
+            <cite>Data: 16-09-2020</cite></li>
+           <li type="square"><a href="#">Meno kb nella pagina</a><br>
+            <cite>Categoria: ottimizzazione</cite><br>
+            <cite>Data: 30-09-2020</cite></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h4>Menù</h4>
+        <ul>
+            <li type="square"><a href="http://127.0.0.1:5500/esercizio_giorno_2.html">Home</a></li>
+            <li type="square"><a href="#">Articoli</a></li>
+            <li type="square"><a href="#">Lavora con Noi</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h4>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</h4>
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" placeholder="Il tuo nome">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Il tuo indirizzo email">
+
+        <button type="submit">Iscriviti!</button>
+    </div>
+    <hr>
+    <img src="img/logo.svg">
+
+    <p><b>Epicode - Il blog dei developers</b></p>
+    
+    Blog Epicode &copy;2023<br>
+    Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano.<br>
+    P.IVA 00112233.<br>
+    <a href="mailto:info@epicode.school">info@epicode.school</a>
+</body>
+</html>
